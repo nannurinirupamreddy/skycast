@@ -1,4 +1,4 @@
-const LOC_LOOKUP_URL = "http://api.openweathermap.org/geo/1.0/direct?q=";
+const LOC_LOOKUP_URL = "https://api.openweathermap.org/geo/1.0/direct?q=";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather?";
 
 const API_KEY = "7edd267297cea975a2ac36c758378278";
