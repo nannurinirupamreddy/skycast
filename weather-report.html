@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCast - Weather Report</title>
+    <link rel="stylesheet" href="weather-report.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="location-div">
+        <i class="fa-solid fa-location-dot"></i>
+        <h3 id="location"></h3>
+    </div>
+    <div class="weather-data-cards">
+        <div class="weather-type-div div-cards">
+            <div class="type-image">
+                
+            </div>
+            <div class="weather-type-text">
+                <h2 id="weather-type"></h2>
+                <h4 id="weather-type-desc"></h4>
+            </div>
+        </div>
+        <div class="temp-data-div div-cards">
+            <div class="today-div">
+                <h2>Today</h2>
+            </div>
+            <div class="temp-data-real-div">
+                <div class="temp-div">
+                    <h2 id="tempDisp">
+                        
+                    </h2>
+                    <img src="res/temp-img.png" alt="sun-cloudy-day">
+                </div>
+                <div class="temp-display-data-div">
+                    <div class="real-temp-div temp-data-div-cards">
+                        <h5 id="div-opacity-text">
+                            Real Temp: 
+                        </h5>
+                        <h5 id="tempDispText"></h5>
+                    </div>
+                    <div class="feels-like-div temp-data-div-cards">
+                        <h5 id="div-opacity-text">
+                            Feels Like: 
+                        </h5>
+                        <h5 id="feelsLikeText"></h5>
+                    </div>
+
+                    <div class="pressure-temp-div temp-data-div-cards">
+                        <h5 id="div-opacity-text">
+                            Pressure: 
+                        </h5>
+                        <h5 id="pressureTempText"></h5>
+                    </div>
+
+                    <div class="humidity-temp-div temp-data-div-cards">
+                        <h5 id="div-opacity-text">
+                            Humidity: 
+                        </h5>
+                        <h5 id="humidityTempText"></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="temp-min-max-div div-cards">
+            <div class="feels-like-image">
+                
+            </div>
+            <div class="temp-min-max-text">
+                <div class="temp-max-div temp-data-div-cards">
+                    <h4 id="div-opacity-text">
+                        Max Temp: 
+                    </h4>
+                    <h4 id="temp-max-text"></h4>
+                </div>
+                <div class="temp-min-div temp-data-div-cards">
+                    <h4 id="div-opacity-text">
+                        Min Temp: 
+                    </h4>
+                    <h4 id="temp-min-text"></h4>
+                </div>
+            </div>
+        </div>
+        <div class="lat-long-div div-cards">
+            <div class="lat-long-div-text">
+                <div class="lat-text-div temp-data-div-cards">
+                    <h4 id="div-opacity-text">
+                        Latitude:
+                    </h4>
+                    <h4 id="lat-text">
+
+                    </h4>
+                </div>
+                <div class="lon-text-div temp-data-div-cards">
+                    <h4 id="div-opacity-text">
+                        Longitude:
+                    </h4>
+                    <h4 id="lon-text">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="humidity-div div-cards">
+            
+        </div>
+        <div class="pressure-div div-cards">
+            
+        </div> -->
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

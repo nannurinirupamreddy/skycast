@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCast - Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parent-div">
+        <div class="data-div">
+            <h1>SkyCast - Weather App</h1>
+            <form>
+                <div class="input-div">
+                    <h2>Enter City: </h2>
+                    <input type="text" id="city" placeholder="New York" required>
+                </div>
+                <div class="select-div">
+                    <h2>Select Country: </h2>
+                    <select name="country" id="country" required>
+                        
+                    </select>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit" id="submitBtn">Get Weather Data</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="countries.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
